@@ -7,4 +7,12 @@ body {
   background-color: hsl(233, 47%, 7%);
 }
 
+* {
+  box-sizing: border-box;
+}
 
+@media only screen and (max-width: 550px){
+  body{
+    margin: 30px;
+  }
+}
